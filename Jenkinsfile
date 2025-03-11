@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-                git branch: 'master', url: 'https://github.com/yourusername/simple-webpage.git'
+                git branch: 'master', url: 'https://github.com/anji-yarra/simple-webpage.git'
             }
         }
         
